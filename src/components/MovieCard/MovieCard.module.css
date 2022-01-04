@@ -1,0 +1,41 @@
+@import "/src/index.css";
+
+.Card__genres {
+  list-style: none;
+  display: inline;
+  margin-right: 10px;
+}
+
+.Card__genres::after:not(:last-child) {
+  content: "";
+  width: 4px;
+  font-size: 10px;
+  height: 5px;
+  color: var(--alternative-color);
+}
+
+.Card__poster {
+  min-width: 400px;
+  margin: 0;
+}
+.Card__image {
+  box-shadow: var(--movie-card-shadow);
+}
+.MovieCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 50px 40px;
+
+  color: var(--alternative-color);
+}
+
+.Card__subcontainer {
+  max-width: 600px;
+  padding: 40px;
+  background-color: var(--neutral-color);
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--movie-card-shadow);
+}

@@ -1,0 +1,19 @@
+@import "/src/index.css";
+
+.Button {
+  display: block;
+  margin: 0;
+  padding: 7px 10px;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 0;
+  background-color: var(--neutral-color);
+  box-shadow: var(--shadow);
+
+  transition: var(--timing-function);
+}
+.Button:hover {
+  color: var(--neutral-color);
+  background-color: var(--alternative-color);
+}

@@ -1,0 +1,13 @@
+.Searchbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Searchbar__input {
+  margin-right: 15px;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+
+  width: 60%;
+}

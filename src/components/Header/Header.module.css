@@ -1,0 +1,30 @@
+@import "/src/index.css";
+
+.Header {
+  padding: 40px 10px;
+  font-weight: 600;
+  font-size: 25px;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.3);
+  background-color: var(--neutral-color);
+  box-shadow: var(--movie-card-shadow);
+}
+
+.Header__navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Header__item {
+  text-decoration: none;
+  color: var(--alternative-color);
+  transition: var(--timing-function);
+}
+
+.Header__item:hover {
+  color: var(--main-color);
+}
+
+.Header__item:not(:last-child) {
+  margin-right: 55px;
+}

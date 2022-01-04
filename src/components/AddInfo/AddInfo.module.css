@@ -1,0 +1,21 @@
+@import "/src/index.css";
+
+.AddInfo__links {
+  margin-bottom: 70px;
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.AddInfo__item {
+  display: inline-block;
+  margin-right: 40px;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: var(--timing-function);
+}
+
+.AddInfo__item:hover {
+  color: var(--alternative-color);
+}

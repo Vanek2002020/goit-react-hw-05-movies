@@ -1,0 +1,21 @@
+.Cast__image {
+  display: flex;
+  align-items: center;
+  height: 300px;
+}
+
+.Cast__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.Cast__item {
+  text-align: center;
+  padding: 10px;
+}
+
+.Cast__description {
+  padding: 5px;
+}

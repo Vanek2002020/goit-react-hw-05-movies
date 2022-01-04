@@ -1,0 +1,41 @@
+@import "/src/index.css";
+
+.Reviews__list {
+  list-style: none;
+}
+.Reviews__item {
+  padding: 40px 70px;
+  background-color: var(--neutral-color);
+  color: var(--alternative-color);
+  box-shadow: var(--movie-card-shadow);
+}
+
+.Reviews__item:not(:last-child) {
+  margin-bottom: 70px;
+}
+.Reviews__passage {
+  text-align: justify;
+
+  margin-bottom: 15px;
+}
+
+.Reviews__author {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.Reviews__constant {
+  font-size: 10px;
+  color: var(--accent-color);
+}
+
+.Reviews__constant::after {
+  content: "";
+  width: 75%;
+  border-bottom: solid 1px var(--alternative-color);
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  z-index: 1;
+}

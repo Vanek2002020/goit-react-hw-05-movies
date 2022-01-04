@@ -1,0 +1,49 @@
+@import "/src/index.css";
+
+.Home__item {
+  color: var(--alternative-color);
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+  box-shadow: var(--movie-card-shadow);
+  background-color: var(--neutral-color);
+}
+
+.Home__item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.Home__description {
+  display: flex;
+  flex-direction: column;
+}
+
+.Home__title {
+  text-decoration: none;
+  color: var(--alternative-color);
+  transition: var(--timing-function);
+}
+
+.Home__title:hover {
+  color: var(--main-color);
+}
+
+.Home__image {
+  margin-right: 50px;
+  width: 161px;
+  height: 220px;
+}
+
+.Home__overview {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  border: 1px solid #666666;
+  background-color: var(--neutral-color);
+}
+
+.Home__heading {
+  text-align: center;
+  font-size: 30px;
+}
